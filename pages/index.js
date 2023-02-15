@@ -13,7 +13,7 @@ export default function Home(props) {
         <h1
           style={{ marginTop: "0 !important" }}
         >{`Rice Purity Test ${new Date().getFullYear()}`}</h1>
-        <p>
+        <p className="intro">
           How Pure Are You? Take this 100-Question Rice Purity Test / Innocence
           Test to Find Out! Get Ready for Some Surprises :D
         </p>

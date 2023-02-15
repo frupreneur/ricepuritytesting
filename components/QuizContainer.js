@@ -24,7 +24,7 @@ export default function QuizContainer() {
 
   return (
     <div className="quizContainer">
-      {state.presentQuestion == -1 && (
+      {(state.presentQuestion == -1 ) && (
         <>
           <Image
             style={{}}
@@ -50,6 +50,7 @@ export default function QuizContainer() {
                   ...old,
                   name: inputRef.current.value,
                   presentQuestion: old.presentQuestion + 1,
+                  generatingResults: false,
                 }));
               } else {
                 setError("Error: INPUT NAME ");

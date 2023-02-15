@@ -7,6 +7,7 @@ export default function StateProvider({ children }) {
   const [state, setState] = React.useState({
     name: "",
     score: 0,
+    generatingResults: false,
     presentQuestion: -1,
     cache: {
       name: '',

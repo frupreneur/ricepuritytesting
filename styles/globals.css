@@ -123,6 +123,15 @@ nav a {
   font-weight: bold;
   /* color: red */
 }
+.logoSpan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.logoSpan > svg{
+  font-size: 2rem;
+}
 
 .menu-icon {
   color: white !important;
@@ -685,12 +694,19 @@ article > p {
   color: snow;
 }
 
+.intro{
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: 1170px) {
+  .intro{
+    font-size: 1rem;
+  }
   .quizContainer {
     margin: 1rem auto;
   }
   .logo a {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     font-weight: bold !important;
     /* color: red */
   }

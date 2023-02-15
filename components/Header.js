@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { TfiClose } from "react-icons/tfi";
+import { GiAngelWings } from "react-icons/gi";
+
 import { menu } from "../db";
 
 export default function Header() {
@@ -11,7 +13,11 @@ export default function Header() {
       <nav id="nav">
         <ul id="menus">
           <li className="logo">
-            <Link href="/">Rice Purity Testing</Link>
+            <Link href="/">
+              <span className="logoSpan">
+                <GiAngelWings /> Rice Purity Testing
+              </span>
+            </Link>
           </li>
           <li
             className="menu-icon"

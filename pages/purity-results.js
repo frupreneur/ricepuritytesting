@@ -14,8 +14,16 @@ import { useRouter } from "next/router";
 
 export default function Results() {
   const link = "https://www.ricepuritytesting.com";
-  const { state } = useGlobalState();
+  const { state,setState } = useGlobalState();
   const router = useRouter();
+
+  React.useEffect(() => {
+    setState((old) => ({
+      ...old,
+      generatingResults: false,
+      presentQuestion: -1,
+    }));
+  }, []);
 
   if (state.cache.score == null) {
     return (

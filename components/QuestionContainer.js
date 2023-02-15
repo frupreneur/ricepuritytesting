@@ -30,54 +30,53 @@ export default function QuestionContainer() {
   const handleNo = () => {
     router.push("/");
     answerNoRef.current.classList.add("active");
-    setTimeout(() => {
-      if (state.presentQuestion + 2 === questions.length) {
-        setGeneratingResults(true);
-      } else {
-        setState((old) => ({
-          ...old,
-          presentQuestion: old.presentQuestion + 1,
-        }));
-      }
-    }, 0);
+    if (state.presentQuestion + 2 === questions.length) {
+      setState((old) => ({
+        ...old,
+        generatingResults: true,
+      }));
+    } else {
+      setState((old) => ({
+        ...old,
+        presentQuestion: old.presentQuestion + 1,
+      }));
+    }
   };
 
   const handleYes = () => {
     router.push("/");
     answerYesRef.current.classList.add("active");
-    setTimeout(() => {
-      if (state.presentQuestion + 2 === questions.length) {
-        setGeneratingResults(true);
-        setState((old) => ({
-          ...old,
-          score: old.score + 1,
-        }));
-      } else {
-        setState((old) => ({
-          ...old,
-          score: old.score + 1,
-          presentQuestion: old.presentQuestion + 1,
-        }));
-      }
-    }, 0);
+    if (state.presentQuestion + 2 === questions.length) {
+      setState((old) => ({
+        ...old,
+        score: old.score + 1,
+        generatingResults: true,
+      }));
+    } else {
+      setState((old) => ({
+        ...old,
+        score: old.score + 1,
+        presentQuestion: old.presentQuestion + 1,
+      }));
+    }
   };
 
   React.useEffect(() => {
     let timer;
-    if (generatingResults) {
+    if (state.generatingResults) {
       timer = setTimeout(() => {
         setState((old) => ({
           name: "",
           score: 0,
-          presentQuestion: -1,
+          generatingResults: true,
           cache: { name: old.name, score: old.score },
         }));
         router.push("/purity-results");
       }, 500);
     }
-  }, [ generatingResults]);
+  }, [state.generatingResults]);
 
-  if (generatingResults) {
+  if (state.generatingResults) {
     return (
       <div className="question-wrapper">
         <div className="questionContainer">
@@ -88,14 +87,15 @@ export default function QuestionContainer() {
     );
   }
 
-
   return (
     <div className="question-wrapper">
       <p>{` ${state.presentQuestion + 1} / ${questions.length}`}</p>
 
       {state.presentQuestion + 1 < 100 && (
         <>
-          <h2 className="questionTitle">{currentQuestion}</h2>
+          <h2 className="questionTitle">
+            {currentQuestion.charAt(0).toUpperCase() + currentQuestion.slice(1)}
+          </h2>
           <div className="questionContainer">
             <div className="answerWrapper">
               <div
@@ -115,19 +115,18 @@ export default function QuestionContainer() {
 
       {state.presentQuestion > 0 && (
         <button
-          onClick={() =>
+          onClick={() => {
             setState({
               name: "",
-              score: {
-                a: 0,
-                s: 0,
-                g: 0,
-                t: 0,
-                pt: 0,
-              },
+              score: 0,
+              generatingResults: false,
               presentQuestion: -1,
-            })
-          }
+              cache: {
+                name: "",
+                score: null,
+              },
+            });
+          }}
         >
           <MdOutlineRestartAlt /> Start All Over
         </button>
