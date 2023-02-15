@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 
 export default function Results() {
   const link = "https://www.ricepuritytesting.com";
-  const { state,setState } = useGlobalState();
+  const { state, setState } = useGlobalState();
   const router = useRouter();
 
   React.useEffect(() => {
@@ -28,7 +28,10 @@ export default function Results() {
   if (state.cache.score == null) {
     return (
       <div className="site-wrap" id="site-wrap">
-        <Meta index="noindex" />
+        <Meta
+          title="Results - Rice Purity Test"
+          description="View results of your Rice Purity Test"
+        />
         <div className="quizContainer">
           <div className="question-wrapper">
             <h2>{`Uuhmmm, Seems like you haven't taken the Purity Test Yet`}</h2>
@@ -49,7 +52,10 @@ export default function Results() {
 
   return (
     <div className="site-wrap" id="site-wrap">
-      <Meta index="noindex" />
+      <Meta
+        title="Results - Rice Purity Test"
+        description="View results of your Rice Purity Test"
+      />
       <div className="quizContainer">
         <div className="question-wrapper">
           <div className="questionContainer">

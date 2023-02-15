@@ -1,8 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import { DATABASE } from "@/db";
-
 const AppContext = createContext();
-
 export default function StateProvider({ children }) {
   const [state, setState] = React.useState({
     name: "",
@@ -10,12 +7,12 @@ export default function StateProvider({ children }) {
     generatingResults: false,
     presentQuestion: -1,
     cache: {
-      name: '',
-      score: null
+      name: "",
+      score: null,
     },
   });
   return (
-    <AppContext.Provider value={{ state, setState, DATABASE }}>
+    <AppContext.Provider value={{ state, setState }}>
       {children}
     </AppContext.Provider>
   );

@@ -71,7 +71,7 @@ export default function QuestionContainer() {
           generatingResults: true,
           cache: { name: old.name, score: old.score },
         }));
-        router.push("/purity-results");
+        router.push("/rice-purity-results");
       }, 500);
     }
   }, [state.generatingResults]);

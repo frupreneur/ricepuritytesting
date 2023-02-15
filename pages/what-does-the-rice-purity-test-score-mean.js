@@ -18,6 +18,7 @@ export default function Page() {
           width="600"
           height="300"
           alt="Rice Purity Test"
+          priority
         />
         <p>
           Although the{" "}
@@ -31,25 +32,27 @@ export default function Page() {
           consequences of their actions.
         </p>
         <p>
-          The  <Link href="/" alt="Rice Purity Test">
+          The{" "}
+          <Link href="/" alt="Rice Purity Test">
             Rice Purity Test
-          </Link>{" "} is often seen as a rite of passage for college
-          students, as it can provide a sense of shared experience and
-          community. Many students compare their scores with their peers, and
-          some even use the test as a way to bond and share stories about their
-          past experiences.
+          </Link>{" "}
+          is often seen as a rite of passage for college students, as it can
+          provide a sense of shared experience and community. Many students
+          compare their scores with their peers, and some even use the test as a
+          way to bond and share stories about their past experiences.
         </p>
 
         <ul className="score-meanings" style={{ listStyle: "none" }}>
           <li>
-            A score of 100 on the <Link href="/" alt="Rice Purity Test">
-            Rice Purity Test
-          </Link>{" "} is considered rare, as it
-            means that the person has never engaged in any of the behaviors
-            listed on the questionnaire. While a score of 100 is not necessarily
-            something to aspire to, it can serve as a reminder that it is
-            possible to make choices that prioritize one's values and
-            well-being.
+            A score of 100 on the{" "}
+            <Link href="/" alt="Rice Purity Test">
+              Rice Purity Test
+            </Link>{" "}
+            is considered rare, as it means that the person has never engaged in
+            any of the behaviors listed on the questionnaire. While a score of
+            100 is not necessarily something to aspire to, it can serve as a
+            reminder that it is possible to make choices that prioritize one's
+            values and well-being.
           </li>
           <li>
             For most students, scores in the 90-99 range are more common. These
@@ -95,11 +98,11 @@ export default function Page() {
             result of their choices, and may be looking for ways to make
             significant changes in their life.
           </li>
-          <Link href="/" alt="Rice Purity Test">
-            {" "}
-            <button>TAKE RICE PURITY TEST</button>
-          </Link>
         </ul>
+        <Link href="/" alt="Rice Purity Test">
+          {" "}
+          <button>TAKE RICE PURITY TEST</button>
+        </Link>
       </article>
     </div>
   );

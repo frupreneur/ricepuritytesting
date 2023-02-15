@@ -157,11 +157,11 @@ export default function Home(props) {
               consequences as a result of their choices, and may be looking for
               ways to make significant changes in their life.
             </li>
-            <Link href="/" alt="Rice Purity Test">
-              {" "}
-              <button>TAKE RICE PURITY TEST</button>
-            </Link>
           </ul>
+          <Link href="/" alt="Rice Purity Test">
+            {" "}
+            <button>TAKE RICE PURITY TEST</button>
+          </Link><br/>
           <h2>How Does the Rice Purity Test Work?</h2>
           <p>
             The Rice Purity Test is simple to take and easy to understand.
@@ -230,18 +230,4 @@ export default function Home(props) {
       </div>
     </>
   );
-}
-
-export async function getStaticProps(context) {
-  const data = [];
-
-  for (const value of Object.values(DATABASE)) {
-    data.push(value);
-  }
-
-  return {
-    props: {
-      data,
-    },
-  };
 }
