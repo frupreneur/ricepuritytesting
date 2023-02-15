@@ -6,6 +6,12 @@ const AppContext = createContext();
 export default function StateProvider({ children }) {
   const [state, setState] = React.useState({
     name: "",
+    score: 0,
+    presentQuestion: -1,
+    cache: {
+      name: '',
+      score: null
+    },
   });
   return (
     <AppContext.Provider value={{ state, setState, DATABASE }}>

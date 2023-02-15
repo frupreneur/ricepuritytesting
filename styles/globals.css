@@ -82,7 +82,7 @@ body > div {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 3rem;
   margin: 1rem 0 !important;
   /* text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2); */
 }
@@ -119,7 +119,8 @@ nav a {
   margin: 0 auto;
 }
 .logo a {
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
   /* color: red */
 }
 
@@ -317,7 +318,7 @@ h2 {
   color: var(--color-primary-200);
   text-align: center;
   margin: 0.8rem 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* h2.title-container {
@@ -325,9 +326,13 @@ h2 {
   max-width: 100%;
 } */
 
+.question-wrapper{
+  width: 100%;
+}
+
 .questionContainer {
   max-width: 500px;
-  min-width: 300px;
+width: 100%;
   margin-inline: auto;
   margin-bottom: 1rem;
 
@@ -344,6 +349,9 @@ h2 {
 }
 .questionContainer h3 {
   text-align: left;
+}
+.questionTitle{
+  min-height: 100px
 }
 
 .answer-container {
@@ -389,6 +397,14 @@ button {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 button > svg {
   font-size: 1.5rem;
@@ -507,19 +523,6 @@ article > p {
   margin: 1rem 0;
 }
 
-.answer {
-  background: white;
-  text-align: left;
-  border-radius: 5px;
-  padding: 0.8rem;
-  box-shadow: 0 5px 10px rgba(140, 13, 225, 0.3);
-  cursor: pointer;
-  min-height: 70px;
-}
-.answer.active {
-  border: 1px solid var(--color-error-500);
-}
-
 .llc {
   display: flex;
   align-items: center;
@@ -594,7 +597,6 @@ article > p {
 .share-button:hover {
   letter-spacing: 2px;
   transition: all 0.3s;
- 
 }
 .share-button:active {
   scale: 0.9;
@@ -621,12 +623,75 @@ article > p {
   background: #3b5998;
   color: white;
 }
+
+/* score-meanings */
+.score-meanings {
+  padding: 0;
+}
+.score-meanings > li {
+  text-align: left;
+  margin: 1rem 0;
+  border: 1px solid var(--color-primary-300);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.testimonial {
+  text-align: left;
+}
+
+/* answerWrapper */
+
+.answerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.answer {
+  width: 100%;
+
+  background: white;
+  text-align: left;
+  border-radius: 5px;
+  padding: 0.8rem;
+  box-shadow: 0 5px 10px rgba(140, 13, 225, 0.3);
+  cursor: pointer;
+  height: 45px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.answer.active {
+  scale: 0.9;
+}
+.no {
+  background: var(--color-error-500);
+  color: snow;
+}
+.yes {
+  background: var(--color-success-500);
+  color: snow;
+}
+
 @media screen and (max-width: 1170px) {
   .quizContainer {
     margin: 1rem auto;
   }
   .logo a {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
     /* color: red */
   }
   h1 {

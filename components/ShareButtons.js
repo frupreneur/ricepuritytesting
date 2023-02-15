@@ -3,19 +3,19 @@ import { FaWhatsapp, FaRegCopy, FaFacebook } from "react-icons/fa";
 import Link from "next/link";
 
 export default function ShareButtons() {
-  const link = "https://www.lovelanguagestest.com";
+  const link = "https://www.ricepuritytesting.com";
   return (
     <div className="card">
       <div className="share-container">
         <h2>Help Your Friends!!!</h2>
         <p>
-          Share this website with friends so they can discover their primary
-          love language too <br />
+          Don't stop the fun, share this website with friends so they can check
+          their purity level <br />
           (Your results will not be shared)
         </p>
         <div className="share-buttons">
           <Link
-            href={`https://api.whatsapp.com/send?text=Do you know your love language? %0a %0aFind Out What Makes Your Heart Sing: Take this free love language test to discover your primary love language, what it means, and how you can use it to better connect with someone you love. 👇 %0a${link}`}
+            href={`https://api.whatsapp.com/send?text=How Pure Are You?  %0a %0aTake this 100-Question Rice Purity Test / Innocence Test to Find Out! Get Ready for Some Surprises 👇 %0a${link}`}
             target="_blank"
             className="share-button wa"
           >

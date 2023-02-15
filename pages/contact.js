@@ -8,7 +8,7 @@ export default function contact() {
   console.log(state);
   return (
     <>
-      <Meta title="Contact Us - Love Languages Test" index="noindex" />
+      <Meta title="Contact Us - Rice Purity Test" index="noindex" />
       <ContactForm />
     </>
   );

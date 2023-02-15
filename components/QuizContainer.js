@@ -2,7 +2,7 @@ import React from "react";
 import { QuestionContainer } from "@/components";
 import { useGlobalState } from "@/state";
 import Image from "next/image";
-import { GiSelfLove } from "react-icons/gi";
+import { GiAngelWings } from "react-icons/gi";
 import { useRouter } from "next/router";
 
 export default function QuizContainer() {
@@ -28,10 +28,10 @@ export default function QuizContainer() {
         <>
           <Image
             style={{}}
-            src="/assets/images/lovelanguagetest.svg"
+            src="/assets/images/rice-purity-test.svg"
             width="80"
             height="80"
-            alt="Love Language Test"
+            alt="Rice Purity Test"
           />
 
           <input
@@ -56,8 +56,8 @@ export default function QuizContainer() {
               }
             }}
           >
-            {!error && <GiSelfLove />}
-            {error ? error : "START TEST"}
+            {!error && <GiAngelWings />}
+            {error ? error : "START PURITY TEST"}
           </button>
         </>
       )}

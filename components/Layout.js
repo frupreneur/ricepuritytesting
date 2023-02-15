@@ -14,10 +14,6 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>
-          Love Language Test - Take your love language quiz | Love Languages
-          Test
-        </title>
         <link rel="shortcut icon" href="/assets/favicon.ico" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

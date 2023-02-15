@@ -12,7 +12,7 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <p>All rights reserved © Copyright 2023, Love Languages Test. </p>
+      <p>{`All rights reserved © Rice Purity Testing ${new Date().getFullYear()}`} </p>
     </footer>
   );
 }

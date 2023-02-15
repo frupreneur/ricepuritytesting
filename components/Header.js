@@ -11,7 +11,7 @@ export default function Header() {
       <nav id="nav">
         <ul id="menus">
           <li className="logo">
-            <Link href="/">Love Languages Test.</Link>
+            <Link href="/">Rice Purity Testing</Link>
           </li>
           <li
             className="menu-icon"

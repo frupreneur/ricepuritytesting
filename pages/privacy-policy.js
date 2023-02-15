@@ -5,23 +5,11 @@ import { Meta } from "@/components";
 export default function disclaimer() {
   return (
     <>
-      <Meta title="Disclaimer / Privacy Policy - Love Languages Test" index="noindex" />
+      <Meta title="Privacy Policy - Rice Purity Test" index="noindex" />
       <div className="site-wrap">
         <article>
-          <h1>DISCLAIMER</h1>
+          <h1>PRIVACY POLICY</h1>
           <p>
-            We are in no form affiliated to Dr. Gary Chapman and his book "The 5
-            Love Languages." The information on this website is solely for educational purposes. <br/><br/>
-            We will only use your information for the purpose for which it is
-            intended for. No sharing with any third party! Here you consider
-            your privacy as a number one serious issue. Privacy actually means
-            privacy.
-          </p>
-
-          <h2>PRIVACY POLICY</h2>
-          <p>
-            We are the sole owners of this website and we only collect
-            information that you voluntarily give us via email or on the phone.
             We assure you that your information will never be sold or disclosed.
             We will only use your information for the purpose for which it is
             intended for. No sharing with any third party! Here you consider
