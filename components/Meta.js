@@ -15,6 +15,8 @@ export default function Meta({
       <meta property="og:type" content="article" />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
+      <meta property="og:image" content="https://www.ricepuritytesting.com/assets/images/rice-purity-test.png" />
+      <meta property="og:site_name" content="Rice Purity Testing" />
       <meta name="robots" content={index} />
     </Head>
   );
