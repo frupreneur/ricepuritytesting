@@ -1,1 +1,3 @@
-# Rice Purity Test
+# Rice Purity Test 2023
+
+@Frupreneur

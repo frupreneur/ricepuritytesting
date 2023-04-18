@@ -8,12 +8,58 @@ export const menu = [
     name: "Rice Purity Results",
     path: "/rice-purity-results",
   },
+  {
+    name: "Blog",
+    path: "/blog",
+  },
   { name: "Privacy Policy", path: "/privacy-policy" },
   { name: "Contact us", path: "/contact" },
 ];
 
+export const blogLinks = [
+  { name: "Rice Purity Test Explained: How Does It Work and Why Do People Take It?", path: "/blog/rice-purity-test-explained-how-does-it-work-and-why-do-people-take-it" },
+  { name: "The History and Evolution of the Rice Purity Test", path: "/blog/history-evolution-rice-purity-test" },
+  { name: "", path: "/blog/rice-purity-test-questions-how-well-do-you-know-yourself" },
+  { name: "Rice Purity Test Questions: How Well Do You Know Yourself?", path: "/blog/" },
+  { name: "What Is the Rice Purity Test and Why Is It So Popular?", path: "/blog/rice-purity-test-popularity-college-high-school-students" },
+  { name: "Ricepurity Score: Is It a Reflection of Your True Self?", path: "/blog/ricepurity-score-reflection-true-self" },
+  { name: "Rice Purity Test Scoring: How Is Your Innocence Calculated", path: "/blog/rice-purity-test-scoring-how-is-your-innocence-calculated" },
+  { name: "The Rice Purity Test: A Fun Way to Test Your Morals?", path: "/blog/the-rice-purity-test-a-fun-way-to-test-your-morals" },
+  { name: "Ricepurity Test: How Accurate Is It and Why Do We Take It?", path: "/blog/ricepurity-test-accuracy-and-purpose" },
+  { name: "The Rice Purity Test 2.0: What's New in the Latest Version?", path: "/blog/rice-purity-test-2-0-whats-new" },
+  { name: "The Rice Purity Test: A Reflection of Society's Morals?", path: "/blog/rice-purity-test-society-morals" },
+  { name: "Why Taking the Rice Purity Test Is More Than Just a Fun Quiz", path: "/blog/why-taking-the-rice-purity-test-is-more-than-just-a-fun-quiz" },
+  { name: "How to Interpret Your Rice Purity Test Score: Understanding the Results", path: "/blog/how-to-interpret-your-rice-purity-test-score-understanding-the-results" },
+  { name: "Rice Purity Test Scores: Are You Really as Innocent as You Think?", path: "/blog/rice-purity-test-scores-are-you-really-as-innocent-as-you-think" },
+  { name: "Rice Purity Test: Can It Help You Improve Your Morals and Ethics?", path: "/blog/rice-purity-test-morals-ethics" },
+  { name: "The Psychology Behind the Rice Purity Test: Why We Take It", path: "/blog/rice-purity-test-psychology-behind-why-we-take-it" },
+  { name: "Rice Purity Test Meaning: Decoding the Message Behind Your Score", path: "/blog/rice-purity-test-meaning" },
+  { name: "What Is the Rice Purity Test and Why Do Colleges Use It?", path: "/blog/rice-purity-test-colleges-why-used" },
+  { name: "The Rice Purity Test: Does It Really Determine Your Character?", path: "/blog/rice-purity-test-does-it-really-determine-your-character" },
+  { name: "Rice Purity Test Score Meaning: Understanding the Impact of Your Result", path: "/blog/rice-purity-test-score-meaning-understanding-the-impact-of-your-result" },
+  { name: "The Rice Purity Test: Is It Harmless Fun or a Source of Stress?", path: "/blog/rice-purity-test-harmless-fun-or-source-of-stress" },
+  { name: "Ricepuritytesting.com: The Ultimate Destination for Innocence Quizzes", path: "/blog/ricepuritytest-ultimate-destination-innocence-quizzes" },
+  { name: "The Pros and Cons of Taking the Rice Purity Test", path: "/blog/the-pros-and-cons-of-taking-the-rice-purity-test" },
+  { name: "Rice Purity Test Quiz: How Well Do You Know Your Morals?", path: "/blog/rice-purity-test-quiz-know-your-morals" },
+  { name: "The Rice Purity Test: A Unique Way to Discover Your True Self", path: "/blog/rice-purity-test-discover-true-self" },
+  { name: "The Rice Purity Test: Are You Really as Pure as You Claim to Be?", path: "/blog/the-rice-purity-test-are-you-really-as-pure-as-you-claim" },
+  { name: "The Most Comprehensive Resource for Innocence Tests", path: "/blog/the-most-comprehensive-resource-for-innocence-tests" },
+  { name: "Rice Purity Test Scoring System: How Is Your Innocence Judged?", path: "/blog/rice-purity-test-scoring-system-innocence-judged" },
+  { name: "The Rice Purity Test: A Reflection of Society's Changing Morals?", path: "/blog/the-rice-purity-test-a-reflection-of-societys-changing-morals" },
+  { name: "Rice Purity Test: What It Tells Us About Our Attitudes Towards Morality", path: "/blog/rice-purity-test-attitudes-morality" },
+  { name: "The Truth Behind the Rice Purity Test: Everything You Need to Know", path: "/blog/the-truth-behind-the-rice-purity-test-everything-you-need-to-know" },
+  { name: "Uncovering the Meaning of Your Rice Purity Score", path: "/blog/uncovering-meaning-rice-purity-score" },
+  { name: "The Rice Purity Test: Can You Really Measure Someone's Innocence", path: "/blog/rice-purity-test-measure-innocence" },
+  { name: "The Rice Purity Test and the Pressure to Fit In", path: "/blog/the-rice-purity-test-and-the-pressure-to-fit-in" },
+];
+
+
 export const footerMenu = [
   { name: "Rice Purity Test", path: "/" },
+  {
+    name: "Blog",
+    path: "/blog",
+  },
   { name: "Privacy Policy", path: "/privacy-policy" },
   { name: "Contact us", path: "/contact" },
 ];

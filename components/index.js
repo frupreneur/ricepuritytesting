@@ -6,4 +6,4 @@ export { default as QuestionContainer } from "./QuestionContainer";
 export { default as AnswerContainer } from "./AnswerContainer";
 export { default as ShareButtons } from "./ShareButtons";
 export { default as ContactForm } from "./ContactForm";
-export { default as Ad } from "./Ad";
+export { default as Ad  } from "./Ad";
