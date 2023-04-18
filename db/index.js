@@ -19,8 +19,7 @@ export const menu = [
 export const blogLinks = [
   { name: "Rice Purity Test Explained: How Does It Work and Why Do People Take It?", path: "/blog/rice-purity-test-explained-how-does-it-work-and-why-do-people-take-it" },
   { name: "The History and Evolution of the Rice Purity Test", path: "/blog/history-evolution-rice-purity-test" },
-  { name: "", path: "/blog/rice-purity-test-questions-how-well-do-you-know-yourself" },
-  { name: "Rice Purity Test Questions: How Well Do You Know Yourself?", path: "/blog/" },
+  { name: "Rice Purity Test Questions: How Well Do You Know Yourself?", path: "/blog/rice-purity-test-questions-how-well-do-you-know-yourself" },
   { name: "What Is the Rice Purity Test and Why Is It So Popular?", path: "/blog/rice-purity-test-popularity-college-high-school-students" },
   { name: "Ricepurity Score: Is It a Reflection of Your True Self?", path: "/blog/ricepurity-score-reflection-true-self" },
   { name: "Rice Purity Test Scoring: How Is Your Innocence Calculated", path: "/blog/rice-purity-test-scoring-how-is-your-innocence-calculated" },
