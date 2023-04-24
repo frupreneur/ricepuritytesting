@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Meta } from "@/components";
 import { blogLinks } from "@/db";
 
-export default function Page() {
+export default function Page({ Links }) {
   return (
     <div className="site-wrap">
       <Meta
@@ -14,10 +14,10 @@ export default function Page() {
       <article>
         <h1>Rice Purity Blog</h1>
 
-        {blogLinks.map((x, i) => {
+        {Links.map((x, i) => {
           return (
             <Link key={i} href={x.path}>
-              <p>{x.name}</p>
+              <p style={{ height: "48px" }}>{x.name}</p>
             </Link>
           );
         })}
@@ -29,4 +29,12 @@ export default function Page() {
       </article>
     </div>
   );
+}
+
+export async function getStaticProps(context) {
+  return {
+    props: {
+      Links: blogLinks,
+    }, // will be passed to the page component as props
+  };
 }
