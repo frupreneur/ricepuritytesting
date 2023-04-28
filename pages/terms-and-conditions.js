@@ -16,7 +16,7 @@ export default function AboutUsPage() {
       />
       <div className="site-wrap">
         <article>
-          <h1>About Us</h1>
+          <h1>Terms and Conditions</h1>
           <p>
             Welcome to RicePurityTesting.com, where you can take the Rice Purity
             Test to assess your level of innocence. Before using our website,
