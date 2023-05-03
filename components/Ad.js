@@ -5,7 +5,7 @@ export default function Ad() {
     adHolder.current.innerHTML = `<ins
     class="adsbygoogle"
     style="display:block"
-    data-ad-client="ca-pub-4787236575206177"
+    data-ad-client="ca-pub-8849438768625360"
     data-ad-slot="6071203613"
     data-ad-format="auto"
     data-full-width-responsive="true"
