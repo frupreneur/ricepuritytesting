@@ -6,12 +6,10 @@ export default function Ad() {
     class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-8849438768625360"
-    data-ad-slot="6071203613"
+    data-ad-slot="2258649368"
     data-ad-format="auto"
     data-full-width-responsive="true"
   ></ins>`;
-
-  
 
     let timer = setTimeout(() => {
       try {
