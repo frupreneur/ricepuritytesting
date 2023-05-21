@@ -31,6 +31,7 @@ export default function Page() {
           the test is a way to reflect on their experiences and consider the
           consequences of their actions.
         </p>
+        <Ad />
         <p>
           The{" "}
           <Link href="/" alt="Rice Purity Test">

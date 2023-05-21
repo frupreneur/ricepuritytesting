@@ -17,6 +17,7 @@ export default function Home(props) {
           How Pure Are You? Take this 100-Question Rice Purity Test / Innocence
           Test to Find Out! Get Ready for Some Surprises :D
         </p>
+        <Ad />
         <QuizContainer />
         <article className="articleHome">
           <h2>What Is The Rice Purity Test</h2>

@@ -66,6 +66,7 @@ export default function Results() {
             <Link href="/what-does-the-rice-purity-test-score-mean">
               click here to learn more
             </Link>
+            <Ad />
 
             <Link href="/" alt="Rice Purity Test">
               {" "}
