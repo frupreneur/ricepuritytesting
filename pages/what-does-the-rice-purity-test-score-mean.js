@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Meta } from "@/components";
+import { Meta, Ad } from "@/components";
 
 export default function Page() {
   return (

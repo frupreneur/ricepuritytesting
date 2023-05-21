@@ -7,7 +7,7 @@ import { GiLovers } from "react-icons/gi";
 import { FaGift } from "react-icons/fa";
 import { BsChatTextFill } from "react-icons/bs";
 import { RiUserSettingsFill } from "react-icons/ri";
-import { Meta, ShareButtons } from "@/components";
+import { Meta, Ad, ShareButtons } from "@/components";
 import { MdOutlineRestartAlt } from "react-icons/md";
 
 import { useRouter } from "next/router";
