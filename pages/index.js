@@ -19,6 +19,7 @@ export default function Home(props) {
         </p>
         <Ad />
         <QuizContainer />
+        <Ad />
         <article className="articleHome">
           <h2>What Is The Rice Purity Test</h2>
           <p>
@@ -162,7 +163,8 @@ export default function Home(props) {
           <Link href="/" alt="Rice Purity Test">
             {" "}
             <button>TAKE RICE PURITY TEST</button>
-          </Link><br/>
+          </Link>
+          <br />
           <h2>How Does the Rice Purity Test Work?</h2>
           <p>
             The Rice Purity Test is simple to take and easy to understand.
@@ -172,6 +174,7 @@ export default function Home(props) {
             comprehensive look at a person's life, and the answers are used to
             determine their level of innocence or purity.
           </p>
+          <Ad />
           <h2>What is the Average Rice Purity Test Score?</h2>
           <p>
             The average Rice Purity Test score varies widely depending on a

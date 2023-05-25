@@ -2,14 +2,14 @@ import React from "react";
 export default function Ad() {
   const adHolder = React.useRef();
   React.useEffect(() => {
-    adHolder.current.innerHTML = `<ins
-    class="adsbygoogle"
+    adHolder.current.innerHTML = `<ins class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-8849438768625360"
     data-ad-slot="2258649368"
     data-ad-format="auto"
-    data-full-width-responsive="true"
-  ></ins>`;
+    data-full-width-responsive="true"></ins>`;
+
+    // ad cleaner
 
     let timer = setTimeout(() => {
       try {
