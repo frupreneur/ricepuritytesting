@@ -9,7 +9,6 @@ export default function Document() {
           id="googleAdSenseScript"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          // data-client="ca-pub-8849438768625360"
           strategy="lazyOnload"
         />
       </Head>
