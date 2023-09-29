@@ -31,7 +31,7 @@ export default function Page() {
           the test is a way to reflect on their experiences and consider the
           consequences of their actions.
         </p>
-        <Ad />
+
         <p>
           The{" "}
           <Link href="/" alt="Rice Purity Test">
@@ -84,7 +84,7 @@ export default function Page() {
             of their choices, and may be looking for ways to make positive
             changes.
           </li>
-          <Ad />
+
           <li>
             Scores in the 50-59 range suggest that the person has had extensive
             experience in many areas, and may have engaged in behaviors that are

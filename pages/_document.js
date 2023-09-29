@@ -8,7 +8,7 @@ export default function Document() {
         <Script
           id="googleAdSenseScript"
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           strategy="lazyOnload"
         />
       </Head>

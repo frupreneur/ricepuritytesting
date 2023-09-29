@@ -1,5 +1,5 @@
 import React from "react";
-import { QuizContainer, Ad, Meta } from "@/components";
+import { QuizContainer, Meta } from "@/components";
 import { DATABASE, testimonials } from "@/db";
 import Link from "next/link";
 import Image from "next/image";
@@ -19,7 +19,6 @@ export default function Home(props) {
         </p>
 
         <QuizContainer />
-        <Ad />
 
         <article className="articleHome">
           <h2>What Is The Rice Purity Test</h2>
@@ -175,7 +174,6 @@ export default function Home(props) {
             comprehensive look at a person's life, and the answers are used to
             determine their level of innocence or purity.
           </p>
-          <Ad />
           <h2>What is the Average Rice Purity Test Score?</h2>
           <p>
             The average Rice Purity Test score varies widely depending on a
