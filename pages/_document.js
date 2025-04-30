@@ -5,7 +5,6 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <meta name="google-adsense-account" content="ca-pub-6191656011259323" />
 
         {/* <Script
           id="googleAdSenseScript"

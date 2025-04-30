@@ -12,7 +12,9 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <p>{`All rights reserved © Rice Purity Testing ${new Date().getFullYear()}`} </p>
+      <p>
+        {`All rights reserved © Rice Purity Testing ${new Date().getFullYear()}`}{" "}
+      </p>
     </footer>
   );
 }

@@ -10,12 +10,16 @@ export default function Meta({
   return (
     <Head>
       <title>{title}</title>
+      <meta name="google-adsense-account" content="ca-pub-6191656011259323" />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:type" content="article" />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
-      <meta property="og:image" content="https://www.ricepuritytesting.com/assets/images/rice-purity-test.png" />
+      <meta
+        property="og:image"
+        content="https://www.ricepuritytesting.com/assets/images/rice-purity-test.png"
+      />
       <meta property="og:site_name" content="Rice Purity Testing" />
       <meta name="robots" content={index} />
     </Head>
